@@ -1,0 +1,60 @@
+* {
+    direction: rtl;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+main>section{
+    float:left;
+    width:20%;
+    background-color:hsl(211, 80%, 88%) ;
+}
+
+#menu {
+    border-top: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-bottom: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-left: 3px solid hsl(207.58deg 92.14% 55.1%);
+    text-align: center;
+    height: 180px;
+    padding: 5px;
+    width:30%;
+}
+#center{
+    width: 50%;
+}
+
+#header {
+    border-top: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-left: 3px solid hsl(207.58deg 92.14% 55.1%);
+    text-align: center;
+    height: 60px;
+    padding: 5px;
+}
+
+#main {
+    border-top: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-left: 3px solid hsl(207.58deg 92.14% 55.1%);
+    text-align: center;
+    height: 60px;
+    padding: 5px;
+}
+
+#footer {
+    border-top: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-left: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-bottom: 3px solid hsl(207.58deg 92.14% 55.1%);
+    text-align: center;
+    height: 60px;
+    padding: 5px;
+}
+
+#right {
+    border-top: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-bottom: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-left: 3px solid hsl(207.58deg 92.14% 55.1%);
+    border-right: 3px solid hsl(207.58deg 92.14% 55.1%);
+    text-align: center;
+    height: 180px;
+    padding: 5px;
+}

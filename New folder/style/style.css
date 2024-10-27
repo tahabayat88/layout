@@ -1,0 +1,26 @@
+*{
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 2px solid orange;
+}
+tr{
+    border-bottom: 2px solid  rgb(211, 201, 201) ;
+}
+td,th{
+    width: 22.5%;
+}
+tr:nth-child(even){
+    background-color: #d6eeee;
+
+}
+#first{
+    width: 50%;
+}
+

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(image/slider1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    position: relative;
+}
+
+div#caption {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 50px;
+    color: aliceblue;
+    font-size: xx-large;
+
+}
+
+#text {
+    position: absolute;
+    padding: 15px;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    font-size: xx-large;
+    background-color: rgba(100, 100, 100, .4);
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+div#rightArrow {
+    right: 20px;
+
+}
+
+#rightArrow:hover {
+    background-color: rgba(50, 50, 50, 0.8);
+}
+
+
+
+div#leftArrow {
+    left: 20px;
+
+}
+
+#leftArrow:hover {
+    background-color: rgba(50, 50, 50, 0.8)
+}
+
+
+
+section>span {
+    border-radius: 50%;
+    background-color: rgb(112, 113, 113);
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#first {
+    background-color: rgb(39, 39, 39);
+}
+
+#srcend{
+    background-color: rgb(58, 57, 57);
+}
+section{
+    margin: 15px auto;
+    width: 12%;
+}
+#first:hover{
+    background-color: rgba(100, 100, 100, 3);
+}
+#srcend:hover{
+    background-color: rgba(100, 100, 100,0.8);
+}
+#therd:hover{
+    background-color: rgba(100, 100, 100, 0.4);
+}

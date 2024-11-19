@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+section{
+    background-color: #333;
+    width: 100%;
+
+}
+a{
+text-decoration: none;
+color: white;
+}
+ul{
+    position: sticky;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+li:hover{
+    background-color: rgb(75, 114, 75);
+}
+li#help{
+    float: right;
+    background-color: rgb(4 169 109);
+
+}
+li#help:hover{
+    background-color: rgb(75, 114, 75);
+}
+main{
+   width: 100%;
+   height: 600px;
+   margin: 0px  auto;
+   position: relative  ;
+   background-size: cover;
+   background-repeat: no-repeat;
+    background-image: url(image/img_woods_wide.jpg);
+}
+
+div#caption{
+    color:white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+img{
+    width: 19.79%;
+}
+#right{
+    position: absolute;
+    background-color: rgba(100, 100, 100,0.5);
+    font-size: xx-large;
+    padding: 20px 20px ;
+    right: 1px;
+    top: 250px;
+}
+#right:hover{
+    background-color: #333;
+}
+#left{
+    position: absolute;
+    background-color: rgba(100, 100, 100,0.5);
+    font-size: xx-large;
+    padding: 20px 20px ;
+    top: 250px;
+
+}
+#left:hover{
+    background-color: #333;
+}
+#up{
+    color: white;
+    position: absolute;
+    font-size:  xx-large ;
+
+}
+
+
+

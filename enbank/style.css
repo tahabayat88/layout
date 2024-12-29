@@ -1,0 +1,106 @@
+*{
+    direction: rtl;
+    
+}
+i.phone{
+    color: black;
+}
+nav{
+    position: fixed;
+}
+div#rightcenter{
+    background-color: purple;
+    height: 200px;
+    border-radius: 10px;
+}
+i#giftcard{
+    font-size: xx-large;
+    color: purple;
+    cursor: pointer;
+}
+i#iconofmenu{
+    font-size: x-large;
+    cursor: pointer;
+}
+i#iconofmenu:hover{
+    color: red;
+}
+div#rightcenterdown{
+    width: 100%;
+}
+div#rightcenterdowncol{
+    height: 300px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+h6#titel{
+    color: purple;
+}
+button#btn-down{
+    background-color: purple;
+    color: white;
+    float: left;
+}
+div#rightcenterdownarshiv{
+    border-right: 1px solid #c7c8c9;
+}
+i#gift{
+    color: purple;
+    font-size: xx-large;
+    border-left: 1px solid #c7c8c9;
+
+}
+button#btn{
+    background-color: purple;
+    color: white;
+}
+button#btn:hover{
+    background-color: red;
+}
+button#btn1:hover{
+    background-color: white;
+    color: red;
+}
+button#btn2:hover{
+    background-color: purple;
+}
+#hov:hover{
+    color: red;
+}
+#hov1:hover{
+color: red;
+}
+#btn3:hover{
+    color: red;
+}
+#btn-down:hover{
+    background-color: red;
+}
+span#btnn{
+    font-size: xx-large;
+    background-color: #aaaaaa;
+}
+i#foot{
+    font-size: xx-large;
+    color:#c2c2c2;
+}
+div#footer{
+    background-color: #dddddd;
+}
+#foott{
+    color: #aaaaaa;
+}
+a#foott:hover{
+    color: purple;
+}
+#footte{
+    border-left: 1px solid red;
+}
+#footer1{
+    background-color: purple;
+    padding: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
